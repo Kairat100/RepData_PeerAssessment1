@@ -1,15 +1,11 @@
----
-title: "Reproducible Research: Peer Assessment 1"
-output: 
-  html_document:
-    keep_md: true
----
+# Reproducible Research: Peer Assessment 1
 
 
 ## Loading and preprocessing the data
 Load the data:
 
-```{r, echo=TRUE}
+
+```r
 activity <- read.csv("activity.csv", header = T, sep = ",")
 ```
 
